@@ -15,7 +15,7 @@ export class ApiService {
     }
 
     getEpisode(id) {
-        return this.http.get('https://www.breakingbadapi.com/api/episodes/${id}');
+        return this.http.get(`https://www.breakingbadapi.com/api/episodes/${id}`);
     }
 
      getCharacters() {
@@ -23,7 +23,7 @@ export class ApiService {
     }
 
     getCharacter(id) {
-        return this.http.get('https://www.breakingbadapi.com/api/character/${id}');
+        return this.http.get(`https://www.breakingbadapi.com/api/characters/${id}`)
     }
 
      getQuotes() {
@@ -31,7 +31,7 @@ export class ApiService {
     }
 
     getQuote(id) {
-        return this.http.get('https://www.breakingbadapi.com/api/quote/${id}');
+        return this.http.get(`https://www.breakingbadapi.com/api/quote/${id}`);
     }
 
      getDeaths() {
@@ -39,7 +39,7 @@ export class ApiService {
     }
 
     getDeath(id) {
-        return this.http.get('https://www.breakingbadapi.com/api/death/${id}');
+        return this.http.get(`https://www.breakingbadapi.com/api/death/${id}`);
     }
 
 }
