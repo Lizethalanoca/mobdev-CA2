@@ -1,9 +1,15 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>quotes</ion-title>
+  <ion-toolbar color="success">
+    <ion-title>Quotes</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
+   <ion-list>
+       <ion-item button detail lines="inset" *ngFor="let quote of quotes | async" (click)="openDetails(quote)">
+      <ion-icon color="success" name="document-text-outline" slot="start"></ion-icon>
+       {{ quote.quote }}
+       </ion-item>
+   </ion-list>
 </ion-content>
