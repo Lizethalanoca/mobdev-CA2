@@ -11,35 +11,35 @@ export class ApiService {
 
 
     getEpisodes() {
-        return this.http.get('https://mysterious-wildwood-57639.herokuapp.com/api/episodes');
+        return this.http.get('https://www.breakingbadapi.com/api/episodes');
     }
 
     getEpisode(id) {
-        return this.http.get(`https://mysterious-wildwood-57639.herokuapp.com/api/episodes/${id}`);
+        return this.http.get(`https://www.breakingbadapi.com/api/episodes/${id}`);
     }
 
      getCharacters() {
-        return this.http.get('https://mysterious-wildwood-57639.herokuapp.com/api/characters');
+        return this.http.get('https://www.breakingbadapi.com/api/characters');
     }
 
     getCharacter(id) {
-        return this.http.get(`https://mysterious-wildwood-57639.herokuapp.com/api/characters/${id}`)
+        return this.http.get(`https://www.breakingbadapi.com/api/characters/${id}`)
     }
 
      getQuotes() {
-        return this.http.get('https://mysterious-wildwood-57639.herokuapp.com/api/quotes');
+        return this.http.get('https://www.breakingbadapi.com/api/quotes');
     }
 
     getQuote(id) {
-        return this.http.get(`https://mysterious-wildwood-57639.herokuapp.com/api/quote/${id}`);
+        return this.http.get(`https://www.breakingbadapi.com/api/quote/${id}`);
     }
 
      getDeaths() {
-        return this.http.get('https://mysterious-wildwood-57639.herokuapp.com/api/deaths');
+        return this.http.get('https://www.breakingbadapi.com/api/deaths');
     }
 
     getDeath(id) {
-        return this.http.get(`https://mysterious-wildwood-57639.herokuapp.com/api/death/${id}`);
+        return this.http.get(`https://www.breakingbadapi.com/api/death/${id}`);
     }
 
 }
