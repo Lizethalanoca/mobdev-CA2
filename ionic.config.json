@@ -1,5 +1,7 @@
 {
   "name": "mobdev-ca3",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
